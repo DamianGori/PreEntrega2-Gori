@@ -3,23 +3,40 @@
     padding: 0;
 }
 
-
+body {
+    min-height: 100vh;
+}
 
 header {
     background-color: chocolate;
 }
 
-
+.footer {
+    position: static;
+    bottom: 0;
+    background-color: chocolate;
+    padding: 1vw;
+    height: 3vw;
+}
 
 .menu {
     text-decoration: none;
     color: white;
 }
 
+.redes {
+    height: 1.5vw;
+    width: 1.5vw;
+}
+
 .principal {
     background-image: url("./imagenes/agujas-de-tejer-de-madera-vintage-e-hilo-en-manos-de-mujer.jpg");
     height: 500px;
     width: 100vw;
+}
+
+.fondo-negro {
+    background-color: black;
 }
 
 h1 {
@@ -94,9 +111,42 @@ h1 {
 .nosotros {
     padding: 5vw;
     text-align: center;
+    background-image: url(./imagenes/hilo-de-vista-frontal-con-luces.jpg);
+}
+
+.nosotros2 {
+    padding: 5vw;
+    text-align: center;
+    background-image: url(./imagenes/hilo-e-hilo-para-tejer-en-la-cama.jpg);
+}
+
+.nosotros3 {
+    padding: 5vw;
+    text-align: center;
+    background-image: url(./imagenes/el-concepto-macro-de-tejer-lana-y-agujas.jpg);
+}
+
+.titulo-nosotros {
+    color: chocolate;
 }
 
 .align {
     display: grid;
     align-items: center;
+}
+
+.info-contacto {
+    background-image: url(./imagenes/agujas-de-tejer-de-madera-vintage-e-hilo-en-manos-de-mujer.jpg);
+}
+
+h2:hover {
+    color: chocolate;
+}
+
+img:hover {
+    opacity: 50%;
+}
+
+a:hover {
+    text-decoration: underline;
 }
